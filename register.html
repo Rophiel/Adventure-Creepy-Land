@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> Cadastro: Adventure Creepy Land</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="IMAGENS/clow-of-devil-icone.ico">
+    </head>
+    <body style="background-image: url(IMAGENS/suave-wallpaper.png);">
+        <a href="index.html" style="color: black;"><h3> VOLTAR </h3></a>
+        <div class="estilo-cadastro" style="color: white; text-align: center;">
+            <div class="fundo">
+                <h1 style="text-align: center; color: white;"> CADASTRE E COMEÇE A SE DIVERTIR</h1>
+                    <br>
+                    <b><label for="nome"> NOME:</label><br></b>
+                    <input style="width: 200px; height: 28px;" type="text" id="nome" required minlength="3" required maxlength="50" placeholder="Digite seu nome">
+                    <br>
+                    <br>
+                    <b><label for="email"> EMAIL:</label></b><br>
+                    <input style="width: 200px; height: 28px;" type="text" id="email" required placeholder="Digite seu e-mail" style="border-radius: 20px; border: none;"><br>
+                    <br>
+                    <b><label for="password"> SENHA:</label></b><br>
+                    <input style="width: 200px; height: 28px;" type="password" id="senha" name="senha" required minlength="8" style="border: none; border-radius: 20px;"><br>
+                    <br>
+                    <b><label for="confirme-senha"> CONFIRMAR SENHA:</label></b><br>
+                    <input style="width: 200px; height: 28px;" type="password" name="confirme-senha" id="confirme-senha" required minlength="8" style="border-radius: 20px; border: none;"><br>
+            </div>
+        </div>
+        
+        <div class="centro" style="font-family: Roboto;">
+            <div style="color: white;">
+                    <b><label for="data-nascimento"> DATA DE NASCIMENTO:</label><br></b>
+                    <br>
+                    <input type="date" id="data-nascimento" name="data-nascimento" required >
+            </div>
+        </div>
+
+        <div class="centro" style="font-family: Roboto; color: white;">
+            <br>
+            <label for="genero">Gênero:</label><br>
+            <br>
+            <input type="radio" id="genero_masculino" name="genero" value="masculino" required>
+            <label for="genero_masculino">Masculino</label><br>
+        </div>
+        
+        <div class="centro" style="margin-right: 9px; color: white; font-family: Roboto;">
+            <input type="radio" id="genero_feminino" name="genero" value="feminino" required>
+            <label for="genero_feminino">Feminino</label><br>
+        </div>
+        
+        <div class="centro" style="margin-right: 35px; color: white; font-family: Roboto;">
+            <input type="radio" id="genero_outro" name="genero" value="outro" required>
+            <label for="genero_outro">Outro</label><br>
+        </div>
+
+        <div class="centro" style="font-family: Roboto; color: white;">
+            <br>
+            <input type="checkbox" id="verificao-id" name="verificao-id" required>
+            <label for="verificao-id">Lembrar de mim</label>
+        </div>
+
+            <div class="centro">
+                <br>
+                <br>
+                <a href="index.html"><button style="width: 150px; height: 50px; border-radius: 20px; border: none;"> CADASTRAR </button></a>
+            </div>
+
+        <div class="fundo-quadrado"></div>
+                <div class="centro">
+                    <div style="margin-top: 92px;">           
+                        <footer>
+                            <p style="color: rgb(184, 184, 184);">            
+                                &copy; This site is protected by reCAPTCHA and the Google <br> <a href="https://policies.google.com/privacy" style="color: rgb(214, 214, 214);">Privacy Policy</a> and <a href="https://policies.google.com/terms" style="color: rgb(214, 214, 214);"> Terms of Service </a> apply.
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+    </body>
+</html>
