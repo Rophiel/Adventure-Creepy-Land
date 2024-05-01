@@ -186,4 +186,15 @@ img {
 
 }
 
+.edit-imagem1 img{
+    border-radius: 20px;
+    width: 550px;
+    margin-top: 3px;
+}
+
+.edit-imagem2 img {
+    border-radius: 20px;
+    width: 700px;
+    margin-top: 3px;
+}
 
