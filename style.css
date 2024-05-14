@@ -237,3 +237,21 @@ img {
     border-radius: 15px;
 }
 
+.container{
+    max-width: 100%;  /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /*A largura da imagem é ajustada automaticamente*/
+}
+
+img{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.container{
+    margin-right: -40px;
+}
